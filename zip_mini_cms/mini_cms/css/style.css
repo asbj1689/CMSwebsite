@@ -1,0 +1,210 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.page-wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.page-header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+}
+.admin-menu ul{
+    display: flex;
+}
+.admin-menu a{
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+.admin-menu li:nth-child(3){
+    margin-left: auto;
+}
+.page-hero {
+    height: 500px;
+    background: url('../uploads/hero-01.jpg') center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-hero-title {
+    font-size: 80px;
+    font-weight: 800;
+    color:#fff;
+    /* -webkit-text-stroke: 1px #222; */
+}
+.page-content {
+    flex: 1;
+    background-color: #eee;
+    padding: 50px;
+}
+.post-page-wrapper .post-content {
+    margin-top: 30px;
+    line-height: 1.7;
+    font-size: 16px;
+ } 
+.home-page-wrapper .page-content {
+    flex: 1;
+    background-color: #eee;
+    padding: 50px;
+}
+.page-title{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.page-title-sub{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 40px 0 20px 0;
+}
+.home-page-wrapper .page-content .post:nth-child(1) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;   
+}
+.home-page-wrapper .page-content .post:nth-child(1) .post-image {
+   width: 100%;
+   height: 300px;
+}
+.home-page-wrapper .page-content .post:nth-child(1) .post-title {
+   font-size: 32px;
+   font-weight: bold;
+   line-height: 1.2;
+}
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.posts-page-wrapper .post{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+ 
+}
+.post-page-wrapper .post{
+    margin-top: -100px;
+    width: 100%;
+}
+.post {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    line-height: 1.5;
+    width: calc(50% - 15px);
+    box-sizing: border-box;
+ }
+ .post-image {
+     width: 50%;
+     height: 100%;
+     background-size: cover;
+     background-position: center;
+    }
+    .posts-page-wrapper .post-image{
+        width: 200px;
+      height: 100%;
+      background-size: cover;
+      background-position: center; 
+    }
+    .post-page-wrapper .post-image{
+      width: 100%;
+      height: 500px;
+      background-size: cover;
+      background-position: center; 
+    }
+ /* .post-image {
+    width: 50%;
+    height: 100%;
+ } */
+ .post-author {
+    text-transform: capitalize;
+    font-size: 12px;
+    margin-bottom:10px; 
+ }
+ .post-page-wrapper .post-author {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+ }
+ .post-text{
+    flex: 1;
+    padding: 20px;
+ }
+ .post-page-wrapper .post-text {
+    padding: 40px;
+ } 
+ .post-title {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 5px;
+ }
+ .post-page-wrapper .post .post-title {
+    font-size: 54px;
+    text-align: center;
+ }
+ .post-btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 20px;
+    margin-top: 10px;
+    font-size: 14px;
+ }
+.action-btn{
+    display: block;
+    text-decoration: none;
+    background-color: green;
+    color: #fff;
+    padding: 10px 20px;
+}
+.btn-group{
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+table{
+    background-color: #fff;
+    width: 100%;
+}
+th{
+    background-color: #222;
+    color: #fff;
+}
+th, td{
+    padding: 10px;
+}
+table, th, td {
+    border: solid 1px #333;
+    border-collapse: collapse;
+}
+tr:nth-child(even){
+    background-color: #eee;
+}
+label, input, textarea {display: block;}
+input, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: solid 1px #999;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+Label{ margin: 20px 0 5px 0;}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    background-color: green;
+    color: #fff;
+    border: none;
+}
+button:hover { cursor: pointer }
+
